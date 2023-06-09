@@ -1,0 +1,16 @@
+{
+  "name": "benben",
+  "version": "0.0.1",
+  "author": "LWarrens",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "node-addon-api": "^5.0.0",
+    "node-api-headers": "^1.0.1"
+  },
+  "scripts": {
+    "build": "npm i && npm run compile",
+    "buildstart": "npm run build && npm run start",
+    "compile": "xmake",
+    "start": "node src/node/benben.js"
+  }
+}

@@ -5,8 +5,11 @@
 ## Build Files
 !/xmake.lua
 !/package.json
-# !/src
-# !/test
+!/src/
+/src/node/**/*.node
+/src/node/**/*.lib
+/src/node/**/*.exp
+!/test
 ## Documentation
 !/**/LICENSE.txt
 !/**/*.md
