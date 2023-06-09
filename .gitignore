@@ -1,0 +1,17 @@
+# Blacklist
+/*
+# Whitelist
+!/.gitignore
+## Build Files
+!/xmake.lua
+!/package.json
+# !/src
+# !/test
+## Documentation
+!/**/LICENSE.txt
+!/**/*.md
+
+
+
+
+
